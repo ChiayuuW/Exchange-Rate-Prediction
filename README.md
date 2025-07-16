@@ -35,4 +35,4 @@ The hybrid modeling pipline includes:
    - Random Forest
    - XGBoost
 3. Forecast Fusion: Combine SARIMA output with predicted residuals.
-![Modeling Framework](images/model_framework.png)
+![Modeling Framework](Framework.png)
