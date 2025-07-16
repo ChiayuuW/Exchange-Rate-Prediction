@@ -27,3 +27,11 @@ Sources:
 [Bank of Canada](https://www.bankofcanada.ca/)
 [FRED Economic Data](https://fred.stlouisfed.org/)
 [Statistics Canada](https://www.statcan.gc.ca/en/start)
+
+## Modeling Framework
+The hybrid modeling pipline includes:
+1. SARIMA for capturing seasonality and linear trends.
+2. Residual Modeling using:
+   - Random Forest
+   - XGBoost
+3. Forecast Fusion: Combine SARIMA output with predicted residuals.
